@@ -1,0 +1,62 @@
+Fri Dec 10 20:28:35 2021
+
+Welcome to OmiEmbed
+by Xiaoyu Zhang x.zhang18@imperial.ac.uk
+
+-----------------------Running Parameters-----------------------
+        batch_size: 32             
+             beta1: 0.5            
+   checkpoints_dir: ./checkpoints  
+         class_num: 0              
+    continue_train: False          
+       conv_k_size: 9              
+         data_root: ./data         
+   decay_step_size: 50             
+            detail: False          
+         detect_na: False          
+     deterministic: False          
+         dropout_p: 0.2            
+       epoch_count: 1              
+   epoch_num_decay: 50             
+      epoch_num_p1: 1              
+      epoch_num_p2: 1              
+      epoch_num_p3: 1              
+      epoch_num_p4: 1              
+      epoch_num_p5: 1              
+     epoch_to_load: latest         
+   experiment_name: test           
+experiment_to_load: test           
+       file_format: tsv            
+        filter_num: 8              
+           gpu_ids: -1             
+         init_gain: 0.02           
+         init_type: normal         
+            isTest: True           	[default: None]
+           isTrain: True           	[default: None]
+           k_embed: 0.001          
+              k_kl: 0.01           
+  latent_space_dim: 128            
+       leaky_slope: 0.2            
+                lr: 0.0001         
+         lr_policy: linear         
+             model: vae_classifier 
+           net_VAE: fc             
+          net_down: multi_FC_classifier
+         norm_type: batch          
+    not_stratified: False          
+       num_threads: 0              
+        omics_mode: ab             
+        print_freq: 1              
+        recon_loss: BCE            
+         reduction: mean           
+   save_epoch_freq: -1             
+        save_model: False          
+              seed: 42             
+    set_pin_memory: False          
+        test_ratio: 0.2            
+       train_ratio: 0.8            
+ use_feature_lists: False          
+   use_sample_list: False          
+      weight_decay: 0.0001         
+----------------------------------------------------------------
+
