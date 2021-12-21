@@ -1,4 +1,4 @@
-name: omiembed
+name: UA-VAE
 channels:
 - pytorch
 - defaults
